@@ -1,0 +1,27 @@
+.seller-dash{
+    min-height: 40rem;
+}
+
+.seller-dash-navigate-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    position:fixed;
+    left: 1rem;
+    top: 15rem;
+}
+
+.dash-side-nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.del-campaign-button{
+    border : none;
+    background-color: white;
+    font-size: larger;
+    display: flex;
+}
