@@ -1,0 +1,46 @@
+.req-screen-cont{
+    min-height: 40rem;
+}
+
+.seller-req{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40rem;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.req-list-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 10rem;
+    width: 70%;
+    height: 5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.req-list-items:hover{
+    cursor: pointer;
+}
+
+.empty-req-area{
+    font-size: larger;
+    font-family: 'Roboto';
+    margin-top: 2rem;
+}
+
+.customer-req{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
