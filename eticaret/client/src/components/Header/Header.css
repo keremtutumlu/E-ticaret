@@ -1,0 +1,195 @@
+/*------------BEFORE COLLAPSE------------*/
+@media (min-width: 992px) {
+  /*------------TOP SECTION START------------*/
+
+  .top-navbar{
+    padding: .6rem 4rem .6rem 4rem;
+  }
+  
+  .search-li {
+    margin-left: 10rem;
+    width: 30rem;
+  }
+
+  .btn.btn-outline-secondary {
+    min-width: 4rem;
+  }
+
+  .look {
+    min-width: 6rem;
+  }
+
+  /*------------ACCOUNT SECTION START------------*/
+  .dropdown-li {
+    margin-left: 4rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-li:hover .dropdown-menu.dropdown-menu-dark {
+    display: block;
+    margin-top: 0.4rem;
+  }
+
+  .dropdown-menu.dropdown-menu-dark {
+    width: auto;
+    height: fit-content;
+  }
+
+  .dropdown-account {
+    color: black;
+    min-width: 8rem;
+    max-width: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .user-logo-header {
+    margin-right: 0.5rem;
+    color: black;
+    font-size: larger;
+  }
+
+  .dropdown-item.button.exit:hover {
+    cursor: pointer;
+  }
+
+  .register-icon-header{
+    margin-right: .4rem;
+  }
+
+  .login-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  /*------------ACCOUNT SECTION END------------*/
+
+  /*------------FAVORITE SECTION START------------*/
+
+  .fav-li {
+    margin-left: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 7.5rem;
+    position: relative;
+  }
+
+  .fav-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .fav-icon-header {
+    position: absolute;
+    left: 0.1px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /*------------FAVORITE SECTION END------------*/
+
+  /*------------CART SECTION START------------*/
+
+  .cart-li {
+    margin-left: 0.5rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 8.5rem;
+    position: relative;
+  }
+
+  .cart-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .cart-icon-header {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .cart-badge {
+    position: absolute;
+    right: 1rem;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+
+  /*------------CART SECTION END------------*/
+
+  /*------------TOP SECTION END------------*/
+
+  .header-split {
+    width: auto;
+    height: 0.1rem;
+    border: 2px solid #fc6e51;
+    margin: 0.4rem 0 0 0;
+  }
+
+  /*------------BOTTOM SECTION START------------*/
+
+  .nav-item.dropdown {
+    margin: 0 1rem 0 1rem;
+    font-size: medium;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .nav-link.dropdown-toggle:hover {
+    cursor: default;
+  }
+
+  .dropdown-menu.bottom {
+    width: 20rem;
+    font-size: smaller;
+    padding: 1rem;
+  }
+
+  .bottom-dropdown-subcats {
+    height: 2rem;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom-dropdown-subcats:hover {
+    cursor: pointer;
+  }
+
+  /*------------BOTTOM SECTION END------------*/
+
+  .bottom-splitter {
+    margin: 0 0 0.5rem 0;
+    width: auto;
+    color: #e9573f;
+    border: 1px solid rgba(233, 87, 63, 0.3);
+  }
+}
+
+/*------------AFTER COLLAPSE------------*/
+@media (max-width: 991px) {
+}

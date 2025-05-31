@@ -1,0 +1,48 @@
+.admin-panel{
+    min-height: 40rem;
+}
+
+.admin-panel-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-top: none;
+    border-radius: 20%;
+}
+
+.button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .6rem;
+}
+
+.add-button{
+    width: 5.5rem;
+    height: auto;
+}
+
+.cat-area{
+    margin-bottom: 2rem;
+}
+
+.add-subcat-input-area{
+    display: flex;
+}
+
+.add-subcat-input{
+    width: 25rem;
+    margin-right: 2rem;
+}
+
+.subcat-del-icon:hover{
+    cursor: pointer;
+}

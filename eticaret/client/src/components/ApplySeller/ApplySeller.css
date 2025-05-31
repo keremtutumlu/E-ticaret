@@ -1,0 +1,39 @@
+.cs-container{
+    height: 40rem;
+}
+
+.cs-area{
+    margin-top: 2rem;
+}
+
+.image-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid{
+    width: 100%;
+    height: fit-content;
+}
+
+.cs-info{
+    font-family: 'Roboto';
+}
+
+.apply-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.apply-button-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-button {
+    width: 70%;
+}

@@ -1,0 +1,82 @@
+.footer-wrapper{
+    flex-grow: 1;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.footer.col{
+    color: white;
+
+}
+
+.list-item{
+    color: white;
+    font-size: medium;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+.footer-li-link{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .6rem;
+}
+
+.social-logo{
+    margin: 0 .3rem 0 .3rem;
+    font-size: x-large;
+}
+
+.social-logo.instagram:hover{
+    color: rgb(253, 1, 102);
+}
+
+.social-logo.X:hover{
+    color: rgb(52, 52, 52);
+}
+
+.social-logo.facebook:hover{
+    color: rgb(9, 127, 235);
+}
+
+.social-logo.youtube:hover{
+    color: rgb(253, 1, 1);
+}
+
+.payment-header{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.payment-logo{
+    margin: 0 .3rem 0 .3rem;
+    font-size: xx-large;
+}
+
+.payment-logo.mastercard:hover{
+    color: rgb(235, 0, 27);
+}
+
+.payment-logo.visa:hover{
+    color: rgb(33, 66, 200);
+}
+.payment-logo.paypal:hover{
+    color: rgb(51, 71, 134);
+}

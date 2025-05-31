@@ -1,0 +1,140 @@
+.cart {
+  margin-top: 1rem;
+  min-height: 40rem;
+}
+
+.cart-header {
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.seller-name-area {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.card-text {
+  max-height: 100px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.create-order-area {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  min-height: 25rem;
+  max-height: 25rem;
+  max-width: 20rem;
+  position: fixed;
+  right: 20%;
+  top: 20%;
+}
+
+.create-order-header {
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+.order-price-area {
+  margin-top: 2rem;
+  font-size: medium;
+}
+
+.campaign-code-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.campaign-code-input {
+  width: 60%;
+  margin-left: 0.7rem;
+}
+
+.campaign-code-button {
+  width: 30%;
+  margin-left: 0.5rem;
+}
+
+.prod-del-icon {
+  font-size: x-large;
+}
+
+.prod-del-btn {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.6rem;
+  border: none;
+  background-color: white;
+  border-radius: 100%;
+}
+
+
+.prod-price {
+    margin-bottom: 1.5rem;
+}
+
+.quantity-area{
+    position: absolute;
+    right: 8rem;
+    bottom: .7rem;
+}
+
+.quantity-input {
+    width: 3rem;
+    margin-left: .2rem;
+}
+
+.accept-cart-btn{
+    margin-top: 2rem;
+    color: white;
+    background-color: rgba(242, 122, 26, .9);
+}
+
+.coupon-info-area{
+  margin-top: 2rem;
+  font-size: smaller;
+}
+
+.del-coupon-btn{
+  border: none;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+/*MODAL*/
+
+.payment-modal {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+
+.payment-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.payment-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.payment-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0070ba;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

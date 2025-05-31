@@ -1,0 +1,56 @@
+.prod-details{
+    min-height: 40rem;
+    padding-top: 2rem;
+}
+
+.prod-name-p{
+    font-size: x-large;
+}
+
+.prod-description{
+    font-size: large;
+}
+
+.add-cart-btn{
+    width: 70%;
+    height: 3rem;
+    background-color: rgba(242, 122, 26, .9);
+    color: white;
+}
+
+.fav-icon-wrapper {
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: aliceblue;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.cat-info-area{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.prod-fav-icon{
+    font-size: larger;
+}
+
+.prod-detail-price-area{
+    font-size: x-large;
+    color: rgb(196, 100, 21);
+}
+
+.comment-item{
+    position: relative;
+    margin-top: 1rem;
+}
+
+.admin-com-del-btn{
+    position: absolute;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    left: -1.5rem;
+    top: -1rem
+}

@@ -1,0 +1,61 @@
+.container.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.ul-group-items{
+    list-style: none;
+    margin-left: .5rem;
+}
+
+.ul-group-items:hover{
+    cursor: pointer;
+}
+
+.form {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+#remember-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+#register-link label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.btn-secondary.btn-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seller-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-link{
+    text-decoration: none;
+}
+
+.form-link:hover{
+    text-decoration: underline;
+}
